@@ -2,22 +2,22 @@
 /* include/autoconf.h.in.  Generated from configure.ac by autoheader.  */
 
 /* Path to the bunzip binary */
-#define BUNZIP "/bin/bunzip2"
+#define BUNZIP "/usr/bin/bunzip2"
 
 /* Path to the bzip binary */
-#define BZIP "/bin/bzip2"
+#define BZIP "/usr/bin/bzip2"
 
 /* Path to the compress binary */
-#define COMPRESS ""
+#define COMPRESS "/usr/bin/compress"
 
 /* Define if gettimeofday takes two arguments */
 #define GETTIMEOFDAY_TWO_ARGS 
 
 /* Path to the gunzip binary */
-#define GUNZIP "/bin/gunzip"
+#define GUNZIP "/usr/bin/gunzip"
 
 /* Path to the gzip binary */
-#define GZIP "/bin/gzip"
+#define GZIP "/usr/bin/gzip"
 
 /* Define if you have the alphasort() function declaration. */
 #define HAVE_ALPHASORT 1
@@ -66,7 +66,7 @@
 /* #undef HAVE_LIBDMALLOCLP */
 
 /* Define if libICE is available */
-#define HAVE_LIBICE 
+/* #undef HAVE_LIBICE */
 
 /* Define to 1 if you have the `m' library (-lm). */
 #define HAVE_LIBM 1
@@ -75,10 +75,10 @@
 #define HAVE_LIBNSL 1
 
 /* Define if libpng is available */
-#define HAVE_LIBPNG 
+/* #undef HAVE_LIBPNG */
 
 /* Define if libSM is available */
-#define HAVE_LIBSM 
+/* #undef HAVE_LIBSM */
 
 /* Define to 1 if you have the `socket' library (-lsocket). */
 /* #undef HAVE_LIBSOCKET */
@@ -96,10 +96,10 @@
 /* #undef HAVE_LIBXMU */
 
 /* Define if libXpm is available */
-#define HAVE_LIBXPM 
+/* #undef HAVE_LIBXPM */
 
 /* Define if libXT is available */
-#define HAVE_LIBXT 
+/* #undef HAVE_LIBXT */
 
 /* Define if libz is available */
 #define HAVE_LIBZ 
@@ -257,7 +257,7 @@
 #define SETPGRP_VOID 1
 
 /* The size of a `long', as computed by sizeof. */
-#define SIZEOF_LONG 4
+#define SIZEOF_LONG 8
 
 /* The size of a `long long', as computed by sizeof. */
 #define SIZEOF_LONG_LONG 8
@@ -272,17 +272,17 @@
 /* #undef TM_IN_SYS_TIME */
 
 /* Path to the uncompress binary */
-#define UNCOMPRESS "/bin/uncompress"
+#define UNCOMPRESS "/usr/bin/uncompress"
 
 /* Version number of package */
 #define VERSION "1.9.0"
 
 /* Define to 1 if the X Window System is missing or not being used. */
-/* #undef X_DISPLAY_MISSING */
+#define X_DISPLAY_MISSING 1
 
 /* Define to 1 if `lex' declares `yytext' as a `char *' by default, not a
    `char[]'. */
-#define YYTEXT_POINTER 1
+/* #undef YYTEXT_POINTER */
 
 /* Define to empty if `const' does not conform to ANSI C. */
 /* #undef const */
