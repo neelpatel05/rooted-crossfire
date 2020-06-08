@@ -525,32 +525,32 @@ s,@INSTALL_DATA@,${INSTALL} -m 644,;t t
 s,@CYGPATH_W@,echo,;t t
 s,@PACKAGE@,crossfire,;t t
 s,@VERSION@,1.9.0,;t t
-s,@ACLOCAL@,${SHELL} /home/user/Documents/crossfire/crossfire-1.9.0/utils/missing --run aclocal-1.9,;t t
-s,@AUTOCONF@,${SHELL} /home/user/Documents/crossfire/crossfire-1.9.0/utils/missing --run autoconf,;t t
-s,@AUTOMAKE@,${SHELL} /home/user/Documents/crossfire/crossfire-1.9.0/utils/missing --run automake-1.9,;t t
-s,@AUTOHEADER@,${SHELL} /home/user/Documents/crossfire/crossfire-1.9.0/utils/missing --run autoheader,;t t
-s,@MAKEINFO@,${SHELL} /home/user/Documents/crossfire/crossfire-1.9.0/utils/missing --run makeinfo,;t t
-s,@install_sh@,/home/user/Documents/crossfire/crossfire-1.9.0/utils/install-sh,;t t
+s,@ACLOCAL@,${SHELL} /home/kali/Documents/rooted-crossfire/crossfire-1.9.0/utils/missing --run aclocal-1.9,;t t
+s,@AUTOCONF@,${SHELL} /home/kali/Documents/rooted-crossfire/crossfire-1.9.0/utils/missing --run autoconf,;t t
+s,@AUTOMAKE@,${SHELL} /home/kali/Documents/rooted-crossfire/crossfire-1.9.0/utils/missing --run automake-1.9,;t t
+s,@AUTOHEADER@,${SHELL} /home/kali/Documents/rooted-crossfire/crossfire-1.9.0/utils/missing --run autoheader,;t t
+s,@MAKEINFO@,${SHELL} /home/kali/Documents/rooted-crossfire/crossfire-1.9.0/utils/missing --run makeinfo,;t t
+s,@install_sh@,/home/kali/Documents/rooted-crossfire/crossfire-1.9.0/utils/install-sh,;t t
 s,@STRIP@,strip,;t t
 s,@ac_ct_STRIP@,strip,;t t
 s,@INSTALL_STRIP_PROGRAM@,${SHELL} $(install_sh) -c -s,;t t
 s,@mkdir_p@,mkdir -p --,;t t
-s,@AWK@,mawk,;t t
+s,@AWK@,gawk,;t t
 s,@SET_MAKE@,,;t t
 s,@am__leading_dot@,.,;t t
-s,@AMTAR@,${SHELL} /home/user/Documents/crossfire/crossfire-1.9.0/utils/missing --run tar,;t t
+s,@AMTAR@,${SHELL} /home/kali/Documents/rooted-crossfire/crossfire-1.9.0/utils/missing --run tar,;t t
 s,@am__tar@,${AMTAR} chof - "$$tardir",;t t
 s,@am__untar@,${AMTAR} xf -,;t t
 s,@MAINTAINER_MODE_TRUE@,#,;t t
 s,@MAINTAINER_MODE_FALSE@,,;t t
 s,@MAINT@,#,;t t
-s,@build@,i686-pc-linux-gnu,;t t
-s,@build_cpu@,i686,;t t
-s,@build_vendor@,pc,;t t
+s,@build@,x86_64-unknown-linux-gnu,;t t
+s,@build_cpu@,x86_64,;t t
+s,@build_vendor@,unknown,;t t
 s,@build_os@,linux-gnu,;t t
-s,@host@,i686-pc-linux-gnu,;t t
-s,@host_cpu@,i686,;t t
-s,@host_vendor@,pc,;t t
+s,@host@,x86_64-unknown-linux-gnu,;t t
+s,@host_cpu@,x86_64,;t t
+s,@host_vendor@,unknown,;t t
 s,@host_os@,linux-gnu,;t t
 s,@CC@,gcc,;t t
 s,@CFLAGS@,-g -O2,;t t
@@ -587,30 +587,30 @@ s,@F77@,,;t t
 s,@FFLAGS@,,;t t
 s,@ac_ct_F77@,,;t t
 s,@LIBTOOL@,$(SHELL) $(top_builddir)/libtool,;t t
-s,@LEX@,flex,;t t
-s,@LEXLIB@,-lfl,;t t
-s,@LEX_OUTPUT_ROOT@,lex.yy,;t t
+s,@LEX@,${SHELL} /home/kali/Documents/rooted-crossfire/crossfire-1.9.0/utils/missing --run flex,;t t
+s,@LEXLIB@,,;t t
+s,@LEX_OUTPUT_ROOT@,,;t t
 s,@LATEX@,,;t t
-s,@GZIP@,/bin/gzip,;t t
-s,@GUNZIP@,/bin/gunzip,;t t
-s,@TAR@,/bin/tar,;t t
+s,@GZIP@,/usr/bin/gzip,;t t
+s,@GUNZIP@,/usr/bin/gunzip,;t t
+s,@TAR@,/usr/bin/tar,;t t
 s,@PERL@,/usr/bin/perl,;t t
 s,@BASENAME@,/usr/bin/basename,;t t
-s,@COMPRESS@,,;t t
-s,@UNCOMPRESS@,/bin/uncompress,;t t
-s,@BZIP@,/bin/bzip2,;t t
-s,@BUNZIP@,/bin/bunzip2,;t t
+s,@COMPRESS@,/usr/bin/compress,;t t
+s,@UNCOMPRESS@,/usr/bin/uncompress,;t t
+s,@BZIP@,/usr/bin/bzip2,;t t
+s,@BUNZIP@,/usr/bin/bunzip2,;t t
 s,@X_CFLAGS@,,;t t
-s,@X_PRE_LIBS@, -lSM -lICE,;t t
+s,@X_PRE_LIBS@,,;t t
 s,@X_LIBS@,,;t t
 s,@X_EXTRA_LIBS@,,;t t
 s,@LIBOBJS@,,;t t
-s,@x_includes@,,;t t
-s,@x_libraries@,,;t t
-s,@no_x@,,;t t
-s,@HAVE_X_TRUE@,,;t t
-s,@HAVE_X_FALSE@,#,;t t
-s,@X11LIBS@,  -lX11 -lICE -lSM -lXext -lXt -lXpm -lpng -lz,;t t
+s,@x_includes@,NONE,;t t
+s,@x_libraries@,NONE,;t t
+s,@no_x@,yes,;t t
+s,@HAVE_X_TRUE@,#,;t t
+s,@HAVE_X_FALSE@,,;t t
+s,@X11LIBS@,  -lX11 -lXext -lz,;t t
 s,@pkgstatedir@,${prefix}/var/crossfire,;t t
 s,@pkgconfdir@,${prefix}/etc/crossfire,;t t
 s,@HAVE_LIBDL_TRUE@,,;t t
@@ -948,16 +948,11 @@ ${ac_dA}HAVE_INTTYPES_H${ac_dB}HAVE_INTTYPES_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_STDINT_H${ac_dB}HAVE_STDINT_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_UNISTD_H${ac_dB}HAVE_UNISTD_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_DLFCN_H${ac_dB}HAVE_DLFCN_H${ac_dC}1${ac_dD}
-${ac_dA}YYTEXT_POINTER${ac_dB}YYTEXT_POINTER${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_LIBNSL${ac_dB}HAVE_LIBNSL${ac_dC}1${ac_dD}
+${ac_dA}X_DISPLAY_MISSING${ac_dB}X_DISPLAY_MISSING${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_LIBX11${ac_dB}HAVE_LIBX11${ac_dC}${ac_dD}
-${ac_dA}HAVE_LIBICE${ac_dB}HAVE_LIBICE${ac_dC}${ac_dD}
-${ac_dA}HAVE_LIBSM${ac_dB}HAVE_LIBSM${ac_dC}${ac_dD}
 ${ac_dA}HAVE_LIBXEXT${ac_dB}HAVE_LIBXEXT${ac_dC}${ac_dD}
-${ac_dA}HAVE_LIBXT${ac_dB}HAVE_LIBXT${ac_dC}${ac_dD}
-${ac_dA}HAVE_LIBXPM${ac_dB}HAVE_LIBXPM${ac_dC}${ac_dD}
 ${ac_dA}HAVE_LIBM${ac_dB}HAVE_LIBM${ac_dC}1${ac_dD}
-${ac_dA}HAVE_LIBPNG${ac_dB}HAVE_LIBPNG${ac_dC}${ac_dD}
 ${ac_dA}HAVE_LIBZ${ac_dB}HAVE_LIBZ${ac_dC}${ac_dD}
 ${ac_dA}HAVE_LIBCRYPT${ac_dB}HAVE_LIBCRYPT${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_DIRENT_H${ac_dB}HAVE_DIRENT_H${ac_dC}1${ac_dD}
@@ -968,6 +963,11 @@ ${ac_dA}HAVE_MALLOC_H${ac_dB}HAVE_MALLOC_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_STRINGS_H${ac_dB}HAVE_STRINGS_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_SYS_FILE_H${ac_dB}HAVE_SYS_FILE_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_SYS_IOCTL_H${ac_dB}HAVE_SYS_IOCTL_H${ac_dC}1${ac_dD}
+${ac_dA}HAVE_SYS_TIME_H${ac_dB}HAVE_SYS_TIME_H${ac_dC}1${ac_dD}
+${ac_dA}HAVE_TIME_H${ac_dB}HAVE_TIME_H${ac_dC}1${ac_dD}
+${ac_dA}HAVE_UNISTD_H${ac_dB}HAVE_UNISTD_H${ac_dC}1${ac_dD}
+${ac_dA}HAVE_STDDEF_H${ac_dB}HAVE_STDDEF_H${ac_dC}1${ac_dD}
+${ac_dA}HAVE_STDLIB_H${ac_dB}HAVE_STDLIB_H${ac_dC}1${ac_dD}
 CEOF
   sed -f $tmp/defines.sed $tmp/in >$tmp/out
   rm -f $tmp/in
@@ -977,16 +977,11 @@ CEOF
 /^[	 ]*#[	 ]*define/!b
 t clr
 : clr
-${ac_dA}HAVE_SYS_TIME_H${ac_dB}HAVE_SYS_TIME_H${ac_dC}1${ac_dD}
-${ac_dA}HAVE_TIME_H${ac_dB}HAVE_TIME_H${ac_dC}1${ac_dD}
-${ac_dA}HAVE_UNISTD_H${ac_dB}HAVE_UNISTD_H${ac_dC}1${ac_dD}
-${ac_dA}HAVE_STDDEF_H${ac_dB}HAVE_STDDEF_H${ac_dC}1${ac_dD}
-${ac_dA}HAVE_STDLIB_H${ac_dB}HAVE_STDLIB_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_SYS_TERMIOS_H${ac_dB}HAVE_SYS_TERMIOS_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_CRYPT_H${ac_dB}HAVE_CRYPT_H${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_ARPA_INET_H${ac_dB}HAVE_ARPA_INET_H${ac_dC}1${ac_dD}
 ${ac_dA}TIME_WITH_SYS_TIME${ac_dB}TIME_WITH_SYS_TIME${ac_dC}1${ac_dD}
-${ac_dA}SIZEOF_LONG${ac_dB}SIZEOF_LONG${ac_dC}4${ac_dD}
+${ac_dA}SIZEOF_LONG${ac_dB}SIZEOF_LONG${ac_dC}8${ac_dD}
 ${ac_dA}SIZEOF_LONG_LONG${ac_dB}SIZEOF_LONG_LONG${ac_dC}8${ac_dD}
 ${ac_dA}SETPGRP_VOID${ac_dB}SETPGRP_VOID${ac_dC}1${ac_dD}
 ${ac_dA}RETSIGTYPE${ac_dB}RETSIGTYPE${ac_dC}void${ac_dD}
@@ -1015,6 +1010,11 @@ ${ac_dA}HAVE_SYSCONF${ac_dB}HAVE_SYSCONF${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_SCANDIR${ac_dB}HAVE_SCANDIR${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_ALPHASORT${ac_dB}HAVE_ALPHASORT${ac_dC}1${ac_dD}
 ${ac_dA}HAVE_GETTIMEOFDAY${ac_dB}HAVE_GETTIMEOFDAY${ac_dC}${ac_dD}
+${ac_dA}GETTIMEOFDAY_TWO_ARGS${ac_dB}GETTIMEOFDAY_TWO_ARGS${ac_dC}${ac_dD}
+${ac_dA}COMPRESS${ac_dB}COMPRESS${ac_dC}"/usr/bin/compress"${ac_dD}
+${ac_dA}UNCOMPRESS${ac_dB}UNCOMPRESS${ac_dC}"/usr/bin/uncompress"${ac_dD}
+${ac_dA}GZIP${ac_dB}GZIP${ac_dC}"/usr/bin/gzip"${ac_dD}
+${ac_dA}GUNZIP${ac_dB}GUNZIP${ac_dC}"/usr/bin/gunzip"${ac_dD}
 CEOF
   sed -f $tmp/defines.sed $tmp/in >$tmp/out
   rm -f $tmp/in
@@ -1024,13 +1024,8 @@ CEOF
 /^[	 ]*#[	 ]*define/!b
 t clr
 : clr
-${ac_dA}GETTIMEOFDAY_TWO_ARGS${ac_dB}GETTIMEOFDAY_TWO_ARGS${ac_dC}${ac_dD}
-${ac_dA}COMPRESS${ac_dB}COMPRESS${ac_dC}""${ac_dD}
-${ac_dA}UNCOMPRESS${ac_dB}UNCOMPRESS${ac_dC}"/bin/uncompress"${ac_dD}
-${ac_dA}GZIP${ac_dB}GZIP${ac_dC}"/bin/gzip"${ac_dD}
-${ac_dA}GUNZIP${ac_dB}GUNZIP${ac_dC}"/bin/gunzip"${ac_dD}
-${ac_dA}BZIP${ac_dB}BZIP${ac_dC}"/bin/bzip2"${ac_dD}
-${ac_dA}BUNZIP${ac_dB}BUNZIP${ac_dC}"/bin/bunzip2"${ac_dD}
+${ac_dA}BZIP${ac_dB}BZIP${ac_dC}"/usr/bin/bzip2"${ac_dD}
+${ac_dA}BUNZIP${ac_dB}BUNZIP${ac_dC}"/usr/bin/bunzip2"${ac_dD}
 CEOF
   sed -f $tmp/defines.sed $tmp/in >$tmp/out
   rm -f $tmp/in
@@ -1061,16 +1056,11 @@ ${ac_uA}HAVE_INTTYPES_H${ac_uB}HAVE_INTTYPES_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_STDINT_H${ac_uB}HAVE_STDINT_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_UNISTD_H${ac_uB}HAVE_UNISTD_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_DLFCN_H${ac_uB}HAVE_DLFCN_H${ac_uC}1${ac_uD}
-${ac_uA}YYTEXT_POINTER${ac_uB}YYTEXT_POINTER${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_LIBNSL${ac_uB}HAVE_LIBNSL${ac_uC}1${ac_uD}
+${ac_uA}X_DISPLAY_MISSING${ac_uB}X_DISPLAY_MISSING${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_LIBX11${ac_uB}HAVE_LIBX11${ac_uC}${ac_uD}
-${ac_uA}HAVE_LIBICE${ac_uB}HAVE_LIBICE${ac_uC}${ac_uD}
-${ac_uA}HAVE_LIBSM${ac_uB}HAVE_LIBSM${ac_uC}${ac_uD}
 ${ac_uA}HAVE_LIBXEXT${ac_uB}HAVE_LIBXEXT${ac_uC}${ac_uD}
-${ac_uA}HAVE_LIBXT${ac_uB}HAVE_LIBXT${ac_uC}${ac_uD}
-${ac_uA}HAVE_LIBXPM${ac_uB}HAVE_LIBXPM${ac_uC}${ac_uD}
 ${ac_uA}HAVE_LIBM${ac_uB}HAVE_LIBM${ac_uC}1${ac_uD}
-${ac_uA}HAVE_LIBPNG${ac_uB}HAVE_LIBPNG${ac_uC}${ac_uD}
 ${ac_uA}HAVE_LIBZ${ac_uB}HAVE_LIBZ${ac_uC}${ac_uD}
 ${ac_uA}HAVE_LIBCRYPT${ac_uB}HAVE_LIBCRYPT${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_DIRENT_H${ac_uB}HAVE_DIRENT_H${ac_uC}1${ac_uD}
@@ -1081,6 +1071,11 @@ ${ac_uA}HAVE_MALLOC_H${ac_uB}HAVE_MALLOC_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_STRINGS_H${ac_uB}HAVE_STRINGS_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_SYS_FILE_H${ac_uB}HAVE_SYS_FILE_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_SYS_IOCTL_H${ac_uB}HAVE_SYS_IOCTL_H${ac_uC}1${ac_uD}
+${ac_uA}HAVE_SYS_TIME_H${ac_uB}HAVE_SYS_TIME_H${ac_uC}1${ac_uD}
+${ac_uA}HAVE_TIME_H${ac_uB}HAVE_TIME_H${ac_uC}1${ac_uD}
+${ac_uA}HAVE_UNISTD_H${ac_uB}HAVE_UNISTD_H${ac_uC}1${ac_uD}
+${ac_uA}HAVE_STDDEF_H${ac_uB}HAVE_STDDEF_H${ac_uC}1${ac_uD}
+${ac_uA}HAVE_STDLIB_H${ac_uB}HAVE_STDLIB_H${ac_uC}1${ac_uD}
 CEOF
   sed -f $tmp/undefs.sed $tmp/in >$tmp/out
   rm -f $tmp/in
@@ -1090,16 +1085,11 @@ CEOF
 /^[	 ]*#[	 ]*undef/!b
 t clr
 : clr
-${ac_uA}HAVE_SYS_TIME_H${ac_uB}HAVE_SYS_TIME_H${ac_uC}1${ac_uD}
-${ac_uA}HAVE_TIME_H${ac_uB}HAVE_TIME_H${ac_uC}1${ac_uD}
-${ac_uA}HAVE_UNISTD_H${ac_uB}HAVE_UNISTD_H${ac_uC}1${ac_uD}
-${ac_uA}HAVE_STDDEF_H${ac_uB}HAVE_STDDEF_H${ac_uC}1${ac_uD}
-${ac_uA}HAVE_STDLIB_H${ac_uB}HAVE_STDLIB_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_SYS_TERMIOS_H${ac_uB}HAVE_SYS_TERMIOS_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_CRYPT_H${ac_uB}HAVE_CRYPT_H${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_ARPA_INET_H${ac_uB}HAVE_ARPA_INET_H${ac_uC}1${ac_uD}
 ${ac_uA}TIME_WITH_SYS_TIME${ac_uB}TIME_WITH_SYS_TIME${ac_uC}1${ac_uD}
-${ac_uA}SIZEOF_LONG${ac_uB}SIZEOF_LONG${ac_uC}4${ac_uD}
+${ac_uA}SIZEOF_LONG${ac_uB}SIZEOF_LONG${ac_uC}8${ac_uD}
 ${ac_uA}SIZEOF_LONG_LONG${ac_uB}SIZEOF_LONG_LONG${ac_uC}8${ac_uD}
 ${ac_uA}SETPGRP_VOID${ac_uB}SETPGRP_VOID${ac_uC}1${ac_uD}
 ${ac_uA}RETSIGTYPE${ac_uB}RETSIGTYPE${ac_uC}void${ac_uD}
@@ -1128,6 +1118,11 @@ ${ac_uA}HAVE_SYSCONF${ac_uB}HAVE_SYSCONF${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_SCANDIR${ac_uB}HAVE_SCANDIR${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_ALPHASORT${ac_uB}HAVE_ALPHASORT${ac_uC}1${ac_uD}
 ${ac_uA}HAVE_GETTIMEOFDAY${ac_uB}HAVE_GETTIMEOFDAY${ac_uC}${ac_uD}
+${ac_uA}GETTIMEOFDAY_TWO_ARGS${ac_uB}GETTIMEOFDAY_TWO_ARGS${ac_uC}${ac_uD}
+${ac_uA}COMPRESS${ac_uB}COMPRESS${ac_uC}"/usr/bin/compress"${ac_uD}
+${ac_uA}UNCOMPRESS${ac_uB}UNCOMPRESS${ac_uC}"/usr/bin/uncompress"${ac_uD}
+${ac_uA}GZIP${ac_uB}GZIP${ac_uC}"/usr/bin/gzip"${ac_uD}
+${ac_uA}GUNZIP${ac_uB}GUNZIP${ac_uC}"/usr/bin/gunzip"${ac_uD}
 CEOF
   sed -f $tmp/undefs.sed $tmp/in >$tmp/out
   rm -f $tmp/in
@@ -1137,13 +1132,8 @@ CEOF
 /^[	 ]*#[	 ]*undef/!b
 t clr
 : clr
-${ac_uA}GETTIMEOFDAY_TWO_ARGS${ac_uB}GETTIMEOFDAY_TWO_ARGS${ac_uC}${ac_uD}
-${ac_uA}COMPRESS${ac_uB}COMPRESS${ac_uC}""${ac_uD}
-${ac_uA}UNCOMPRESS${ac_uB}UNCOMPRESS${ac_uC}"/bin/uncompress"${ac_uD}
-${ac_uA}GZIP${ac_uB}GZIP${ac_uC}"/bin/gzip"${ac_uD}
-${ac_uA}GUNZIP${ac_uB}GUNZIP${ac_uC}"/bin/gunzip"${ac_uD}
-${ac_uA}BZIP${ac_uB}BZIP${ac_uC}"/bin/bzip2"${ac_uD}
-${ac_uA}BUNZIP${ac_uB}BUNZIP${ac_uC}"/bin/bunzip2"${ac_uD}
+${ac_uA}BZIP${ac_uB}BZIP${ac_uC}"/usr/bin/bzip2"${ac_uD}
+${ac_uA}BUNZIP${ac_uB}BUNZIP${ac_uC}"/usr/bin/bunzip2"${ac_uD}
 s,^[	 ]*#[	 ]*undef[	 ][	 ]*[a-zA-Z_][a-zA-Z_0-9]*,/* & */,
 CEOF
   sed -f $tmp/undefs.sed $tmp/in >$tmp/out

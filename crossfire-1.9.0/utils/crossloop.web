@@ -81,8 +81,8 @@ while [ ! "$logcount"x = "$MAXRESTART"x ]; do
       	  break
 	fi
 
-	/bin/gzip -9 $HTMLDIR/core.$$.$logcount &
-	/bin/gzip -9 $HTMLDIR/server.$$.$logcount.log &
+	/usr/bin/gzip -9 $HTMLDIR/core.$$.$logcount &
+	/usr/bin/gzip -9 $HTMLDIR/server.$$.$logcount.log &
 	/bin/chmod 644 $HTMLDIR/core*.gz
 
 	echo "Crossfired crashed at `date`.  Crash instance is $logcount." > /tmp/crossloop.web.$$

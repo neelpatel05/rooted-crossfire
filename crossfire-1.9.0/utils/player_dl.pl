@@ -39,7 +39,7 @@
 #   Config options:
 #
 # Where the tar program is located. 
-$tar = '/bin/tar';
+$tar = '/usr/bin/tar';
 
 $prefix="/usr/games/crossfire";
 # Where the crossfire directory is located.
